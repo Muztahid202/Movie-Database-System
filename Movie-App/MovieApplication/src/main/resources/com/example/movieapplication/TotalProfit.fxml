@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movieapplication.TotalProfit">
+   <children>
+      <ImageView fitHeight="590.0" fitWidth="913.0" layoutX="17.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Scene-4.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="profitLabel" alignment="CENTER" layoutX="157.0" layoutY="212.0" prefHeight="149.0" prefWidth="506.0" textFill="#f50cc0">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="productionCompanyName" alignment="CENTER" layoutX="166.0" layoutY="14.0" prefHeight="28.0" prefWidth="452.0" text="Label" textFill="#f40909">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font></Label>
+      <Button layoutX="734.0" layoutY="560.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Back" />
+   </children>
+</AnchorPane>
